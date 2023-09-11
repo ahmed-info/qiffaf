@@ -1,7 +1,7 @@
 @extends('layouts.user-layout')
 @section('content')
     <!-- page-title -->
-    <section class="page-title" style="background-image: url({{ asset('images'.'/'.$cover->cover_contact) }});top:100px;background-repeat: no-repeat;">
+    <section class="page-title" style="background-image: url({{ asset('images'.'/'.$cover->cover_contact) }});top:0px;height:550px;width:auto;background-repeat: no-repeat;">
 
     </section>
     <!-- page-title end -->

@@ -1,8 +1,8 @@
 @extends('layouts.user-layout')
 @section('content')
     <!-- cta-section -->
-    <section class="cta-section" style="background-image: url({{ asset('images'.'/'.$cover->cover_company) }});background-repeat: no-repeat;">
-        
+    <section class="cta-section" style="background-image: url({{ asset('images'.'/'.$cover->cover_company) }});top:0px;height:600px;width:auto;background-repeat: no-repeat;">
+
     </section>
     <!-- cta-section end -->
     <!-- gallery-section -->

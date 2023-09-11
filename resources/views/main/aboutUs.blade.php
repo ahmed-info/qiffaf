@@ -6,7 +6,7 @@
         <div class="container">
             <div class="row">
                 <div class="text col-lg-12 col-md-12 col-sm-12 counter-column mt-5" style="color: red;font-size: 28px;padding-top: 30px">About Us
-                    <p style="color: white;padding-top: 10px;padding-bottom: 40px">
+                    <p style="color: white;padding-top: 20px;padding-bottom: 40px">
                     @if($aboutus != null)
                     {!! $aboutus->title !!}
                     @endif

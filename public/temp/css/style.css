@@ -91,7 +91,10 @@
 ====================================================================
 
  ***/
-
+@font-face {
+    src: url('../fonts/Hiragino Kaku Gothic ProN W3.otf');
+    font-family: "Hiragino Kaku Gothic ProN",'Open Sans',sans-serif;
+}
 
 body {
   font-size:15px;
@@ -99,7 +102,7 @@ body {
   line-height:26px;
   font-weight:400;
   background:#ffffff;
-  font-family: 'Open Sans', sans-serif;
+  font-family: "Hiragino Kaku Gothic ProN",'Open Sans', sans-serif;
   background-size:cover;
   background-repeat:no-repeat;
   background-position:center top;
@@ -216,9 +219,10 @@ textarea:focus{
 }
 
 p{
+    top:50px;
   position: relative;
   font-size: 15px;
-  font-family: 'Open Sans', sans-serif;
+  font-family: "Hiragino Kaku Gothic ProN",'Open Sans', sans-serif;
   line-height: 26px;
   font-weight: 400;
   color: #848484;
@@ -229,7 +233,7 @@ p{
 
 h1,h2,h3,h4,h5,h6 {
   position:relative;
-  font-family: 'Hind', sans-serif;
+  font-family:"Hiragino Kaku Gothic ProN", 'Hind', sans-serif;
   font-weight: 400;
   margin-bottom: 0px;
   color: #222222;
@@ -237,7 +241,7 @@ h1,h2,h3,h4,h5,h6 {
 }
 h1 a,h2 a,h3 a,h4 a,h5 a,h6 a {
   position:relative;
-  font-family: 'Hind', sans-serif;
+  font-family: "Hiragino Kaku Gothic ProN",'Hind', sans-serif;
   font-weight: 400;
   margin-bottom: 0px;
   color: #222222;
@@ -315,7 +319,7 @@ figure{
   position: relative;
   display: inline-block;
   font-size: 16px;
-  font-family: 'Open Sans', sans-serif;
+  font-family: "Hiragino Kaku Gothic ProN", 'Open Sans', sans-serif;
   padding: 10px 39px;
   background: #ff0000;
   color: #ffffff;
@@ -339,7 +343,7 @@ figure{
   position: relative;
   display: inline-block;
   font-size: 16px;
-  font-family: 'Open Sans', sans-serif;
+  font-family: "Hiragino Kaku Gothic ProN",'Open Sans', sans-serif;
   padding: 13px 52px 13px 53px;
   background: transparent;
   color: #222222;
@@ -364,7 +368,7 @@ figure{
   position: relative;
   display: inline-block;
   font-size: 16px;
-  font-family: 'Open Sans', sans-serif;
+  font-family: "Hiragino Kaku Gothic ProN",'Open Sans', sans-serif;
   padding: 12px 41px;
   background: #ffffff;
   color: #222222;
@@ -397,7 +401,7 @@ figure{
   position: relative;
   display: inline-block;
   font-size: 18px;
-  font-family: 'Open Sans', sans-serif;
+  font-family: "Hiragino Kaku Gothic ProN",'Open Sans', sans-serif;
   height: 50px;
   font-weight: 600;
   width: 50px;
@@ -473,7 +477,7 @@ figure{
 .sec-title{
   position: relative;
   font-size: 42px;
-  font-family: 'Hind', sans-serif;
+  font-family: "Hiragino Kaku Gothic ProN",'Hind', sans-serif;
   line-height: 50px;
   color: #222222;
   font-weight: 600;
@@ -628,7 +632,7 @@ figure{
   display: inline-block;
   font-size: 17px;
   line-height: 26px;
-  font-family: 'Open Sans', sans-serif;
+  font-family: "Hiragino Kaku Gothic ProN", 'Open Sans', sans-serif;
   font-weight: 600;
   color: #182345;
   background: #f2be00;
@@ -663,7 +667,7 @@ figure{
   position:relative;
   display:block;
   font-size:16px;
-  font-family: 'Open Sans', sans-serif;
+  font-family: "Hiragino Kaku Gothic ProN",'Open Sans', sans-serif;
   color:#222222;
   line-height:30px;
   font-weight:400;
@@ -713,7 +717,7 @@ figure{
 .main-menu .navigation > li > ul > li > a{
   position:relative;
   display:block;
-  font-family: 'Open Sans', sans-serif;
+  font-family: "Hiragino Kaku Gothic ProN",'Open Sans', sans-serif;
   padding:6px 0px;
   line-height:24px;
   font-size:15px;
@@ -1208,7 +1212,7 @@ figure{
 .event-section .event-title{
   position: relative;
   font-size: 26px;
-  font-family: 'Hind', sans-serif;
+  font-family: "Hiragino Kaku Gothic ProN",'Hind', sans-serif;
   color: #ffffff;
   line-height: 35px;
   font-weight: 500;
@@ -1305,7 +1309,7 @@ figure{
   display: inline-block;
   font-size: 42px;
   line-height: 50px;
-  font-family: 'Hind', sans-serif;
+  font-family: "Hiragino Kaku Gothic ProN",'Hind', sans-serif;
   color: #ffffff;
   font-weight: 500;
   margin-bottom: 1px;
@@ -1551,7 +1555,7 @@ figure{
 .footer-title{
   position: relative;
   font-size: 20px;
-  font-family: 'Hind', sans-serif;
+  font-family: "Hiragino Kaku Gothic ProN",'Hind', sans-serif;
   font-weight: 500;
   letter-spacing: 1px;
   line-height: 30px;
@@ -1597,7 +1601,7 @@ figure{
   display: inline-block;
   font-size: 15px;
   line-height: 24px;
-  font-family: 'Hind', sans-serif;
+  font-family: "Hiragino Kaku Gothic ProN",'Hind', sans-serif;
   color: #d4dae3;
   margin-bottom: 3px;
 }
@@ -1879,7 +1883,7 @@ figure{
   position: relative;
   font-size: 48px;
   line-height: 55px;
-  font-family: 'Hind', sans-serif;
+  font-family: "Hiragino Kaku Gothic ProN",'Hind', sans-serif;
   font-weight: 400;
   color: #ffffff;
   margin-bottom: 11px;
@@ -2336,7 +2340,7 @@ p .price {
 .main-slider .content-box .text{
   position: relative;
   font-size: 17px;
-  font-family: 'Open Sans', sans-serif;
+  font-family: "Hiragino Kaku Gothic ProN",'Open Sans', sans-serif;
   line-height: 28px;
   color: #ffffff;
   margin-bottom: 31px;
@@ -2547,7 +2551,7 @@ p .price {
 .service-style-five .single-tab-content .content-box .title{
   position: relative;
   font-size: 30px;
-  font-family: 'Hind', sans-serif;
+  font-family:"Hiragino Kaku Gothic ProN", 'Hind', sans-serif;
   font-weight: 600;
   line-height: 38px;
   color: #222222;
@@ -2704,7 +2708,7 @@ p .price {
   position: relative;
   display: block;
   font-size: 42px;
-  font-family: 'Hind', sans-serif;
+  font-family: "Hiragino Kaku Gothic ProN",'Hind', sans-serif;
   color: #ffffff;
   line-height: 52px;
   font-weight: 500;
@@ -2775,7 +2779,7 @@ p .price {
   position: relative;
   display: inline-block;
   font-size: 18px;
-  font-family: 'Hind', sans-serif;
+  font-family: "Hiragino Kaku Gothic ProN",'Hind', sans-serif;
   font-weight: 600;
   color: #222222;
   margin-bottom: 1px;
@@ -2859,7 +2863,7 @@ p .price {
   position: relative;
   display: inline-block;
   font-size: 14px;
-  font-family: 'Hind', sans-serif;
+  font-family: "Hiragino Kaku Gothic ProN",'Hind', sans-serif;
   color: #222222;
   line-height: 18px;
   background: #ebe8e8;
@@ -3091,7 +3095,7 @@ p .price {
   display: block;
   background: #ffd6d6;
   font-size: 24px;
-  font-family: 'Hind', sans-serif;
+  font-family: "Hiragino Kaku Gothic ProN",'Hind', sans-serif;
   color: #222222;
   font-weight: 500;
   padding: 34px 40px 31px 40px;
@@ -3250,7 +3254,7 @@ p .price {
 .cta-style-two .content-box .cta-title{
   position: relative;
   font-size: 45px;
-  font-family: 'Hind', sans-serif;
+  font-family: "Hiragino Kaku Gothic ProN",'Hind', sans-serif;
   line-height: 54px;
   color: #ffffff;
   font-weight: 700;
@@ -3285,7 +3289,7 @@ p .price {
   position: relative;
   font-size: 30px;
   line-height: 36px;
-  font-family: 'Hind', sans-serif;
+  font-family: "Hiragino Kaku Gothic ProN",'Hind', sans-serif;
   font-weight: 600;
   color: #ffffff;
   margin-bottom: 33px;
@@ -3411,7 +3415,7 @@ p .price {
 .testimonial-style-two .testimonial-content .author .name{
   position: relative;
   font-size: 18px;
-  font-family: 'Hind', sans-serif;
+  font-family:"Hiragino Kaku Gothic ProN", 'Hind', sans-serif;
   font-weight: 500;
   color: #ffffff;
   margin-bottom: 1px;
@@ -3490,7 +3494,7 @@ input[type=search] {
   position: relative;
   font-size: 34px;
   line-height: 45px;
-  font-family: 'Hind', sans-serif;
+  font-family: "Hiragino Kaku Gothic ProN",'Hind', sans-serif;
   color: #ffffff;
   font-weight: 500;
   border-bottom: 1px solid #ffffff;
@@ -3607,7 +3611,7 @@ input[type=search] {
 .book-section .book-inner .year .year-name{
   position: relative;
   font-size: 16px;
-  font-family: 'Hind', sans-serif;
+  font-family: "Hiragino Kaku Gothic ProN",'Hind', sans-serif;
   color: #ff0000;
   font-weight: 600;
   margin-bottom: 20px;
@@ -3655,7 +3659,7 @@ input[type=search] {
   position: relative;
   display: inline-block;
   font-size: 15px;
-  font-family: 'Hind', sans-serif;
+  font-family: "Hiragino Kaku Gothic ProN",'Hind', sans-serif;
   font-weight: 600;
   color: #222222;
   border: 1px solid #e5e5e5;
@@ -3703,7 +3707,7 @@ input[type=search] {
   display: inline-block;
   font-size: 15px;
   font-weight: 400;
-  font-family: 'Hind', sans-serif;
+  font-family: "Hiragino Kaku Gothic ProN",'Hind', sans-serif;
   color: #ffffff;
   background: #ff0000;
   padding: 7px 23px 6px 24px;
@@ -3735,7 +3739,7 @@ input[type=search] {
   display: inline-block;
   font-size: 200px;
   line-height: 200px;
-  font-family: 'Hind', sans-serif;
+  font-family: "Hiragino Kaku Gothic ProN",'Hind', sans-serif;
   color: #ff0000;
   font-weight: 700;
   margin-bottom: 30px;
@@ -3789,7 +3793,7 @@ input[type=search] {
   position: relative;
   font-size: 36px;
   line-height: 45px;
-  font-family: 'Hind', sans-serif;
+  font-family: "Hiragino Kaku Gothic ProN",'Hind', sans-serif;
   color: #222222;
   font-weight: 600;
   margin-bottom: 20px;
@@ -3930,7 +3934,7 @@ input[type=search] {
   background-repeat: no-repeat;
   font-size: 42px;
   font-weight: 600;
-  font-family: 'Hind', sans-serif;
+  font-family: "Hiragino Kaku Gothic ProN",'Hind', sans-serif;
   color: #ffffff;
   padding: 34px 0px 20px 0px;
   z-index: 1;
@@ -3955,7 +3959,7 @@ input[type=search] {
   font-weight: 500;
   color: #ffffff;
   font-size: 15px;
-  font-family: 'Open Sans', sans-serif;
+  font-family: "Hiragino Kaku Gothic ProN",'Open Sans', sans-serif;
 }
 .single-event-content h4 a{
   display: inline-block;
@@ -4001,7 +4005,7 @@ input[type=search] {
   display: block;
   font-size: 36px;
   line-height: 45px;
-  font-family: 'Hind', sans-serif;
+  font-family:"Hiragino Kaku Gothic ProN", 'Hind', sans-serif;
   font-weight: 500;
   color: #222222;
   margin-bottom: 6px;
@@ -4170,7 +4174,7 @@ input[type=search] {
   position: relative;
   display: block;
   font-size: 36px;
-  font-family: 'Hind', sans-serif;
+  font-family: "Hiragino Kaku Gothic ProN",'Hind', sans-serif;
   line-height: 45px;
   color: #222222;
   font-weight: 500;
@@ -4337,7 +4341,7 @@ input[type=search] {
   display: block;
   font-size: 36px;
   line-height: 45px;
-  font-family: 'Hind', sans-serif;
+  font-family: "Hiragino Kaku Gothic ProN",'Hind', sans-serif;
   font-weight: 500;
   color: #222222;
   margin-bottom: 16px;
@@ -4509,7 +4513,7 @@ input[type=search] {
     font-size: 15px;
     font-weight: 400;
     text-transform: capitalize;
-    font-family: 'Rubik', sans-serif;
+    font-family: "Hiragino Kaku Gothic ProN",'Rubik', sans-serif;
     transition: all 500ms ease;
 }
 .single-blog-post .text-holder .meta-box .meta-info li a:hover{

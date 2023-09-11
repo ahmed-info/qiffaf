@@ -2,7 +2,7 @@
 @section('content')
         <!-- page-title -->
         <div style="background: rgba(255, 13, 21, 0.50);">
-            <img style="background: rgba(255, 13, 21, 0.50);background-size: auto;" src="{{ asset('images/'.$cover->cover_department) }}" alt="">
+            <img style="background: rgba(255, 13, 21, 0.50);top:50px;height:auto;width:100%;background-repeat: no-repeat;" src="{{ asset('images/'.$cover->cover_department) }}" alt="">
         </div>
         <!-- page-title end -->
 
