@@ -9,7 +9,7 @@
 
             @if(count($slides) >0)
                 @foreach ($slides as $slide)
-                <div class="slide" style="background-image:url({{ asset('assets/images/qiffaqScientific.png') }})">
+                <div class="slide" style="background-image:url({{ asset('images'.'/'. $slide->image ) }})">
                     <div class="container">
                         <div class="content-box">
                             <h1>{!! $slide->title !!}<br />{!! $slide->description !!}</h1>
