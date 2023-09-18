@@ -116,7 +116,11 @@
                  </li>
 
                  <li class="nav-item">
+<<<<<<< HEAD
                     <a class="nav-link" href="{{ route('dashboard.cover.list') }}"><i
+=======
+                    <a class="nav-link" href="{{ route('dashboard.cover.edit') }}"><i
+>>>>>>> 3add39a (ok)
                             class="icon-puzzle"></i>Cover</a>
                 </li>
 

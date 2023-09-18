@@ -117,7 +117,11 @@
                                 <div class="overlay">
                                     <div class="wrapper">
                                         {{ $customer->title }}
+<<<<<<< HEAD
                                        
+=======
+
+>>>>>>> 3add39a (ok)
                                     </div>
                                 </div>
                             </figure>

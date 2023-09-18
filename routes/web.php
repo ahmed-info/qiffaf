@@ -61,7 +61,11 @@ Route::delete('dashboard/slide/destroy/{id}',[SlideController::class, 'destroy']
 Route::get('dashboard/cover/list',[CoverController::class,'list'])->name('dashboard.cover.list');
 Route::get('dashboard/cover/create',[CoverController::class,'create'])->name('dashboard.cover.create');
 Route::post('dashboard/cover/store',[CoverController::class,'store'])->name('dashboard.cover.store');
+<<<<<<< HEAD
 Route::get('dashboard/cover/edit/{id}',[CoverController::class, 'edit'])->name('dashboard.cover.edit');
+=======
+Route::get('dashboard/cover/edit',[CoverController::class, 'edit'])->name('dashboard.cover.edit');
+>>>>>>> 3add39a (ok)
 Route::put('dashboard/cover/update/{id}',[CoverController::class, 'update'])->name('dashboard.cover.update');
 Route::delete('dashboard/cover/destroy/{id}',[CoverController::class, 'destroy'])->name('dashboard.cover.destroy');
 
