@@ -125,9 +125,15 @@ class CoverController extends Controller
      * @param  int  $id
      * @return \Illuminate\Http\Response
      */
+<<<<<<< HEAD
     public function edit($id)
     {
         $cover = Cover::find($id);
+=======
+    public function edit()
+    {
+        $cover = Cover::first();
+>>>>>>> 3add39a (ok)
 
         return view('pages.cover.edit', compact('cover'));
     }
@@ -218,7 +224,11 @@ class CoverController extends Controller
          }
 
          $cover->update();
+<<<<<<< HEAD
          return redirect()->route('dashboard.cover.list')->with('status', "Cover updated successfully");
+=======
+         return redirect()->route('dashboard.cover.edit')->with('status', "Cover updated successfully");
+>>>>>>> 3add39a (ok)
     }
 
     /**
@@ -231,7 +241,11 @@ class CoverController extends Controller
     {
         $cover = Cover::find($id);
 
+<<<<<<< HEAD
         $destination = 'images/'. $cove->cover_aboute;
+=======
+        $destination = 'images/'. $cover->cover_aboute;
+>>>>>>> 3add39a (ok)
         if(File::exists($destination)){
             File::delete($destination);
         }
